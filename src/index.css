@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-display {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom styled subtle scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #140d09;
+}
+::-webkit-scrollbar-thumb {
+  background: #3a2518;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5a3a26;
+}
+
+/* Subtle timber woodgrain texture overlay */
+.timber-texture {
+  background-image: radial-gradient(rgba(214, 163, 84, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.chalkboard-bg {
+  background-color: #171a17;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 0);
+  background-size: 16px 16px;
+}

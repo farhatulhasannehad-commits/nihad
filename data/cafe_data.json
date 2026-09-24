@@ -1,0 +1,332 @@
+{
+  "bookings": [
+    {
+      "id": "LES-2661",
+      "name": "nihad",
+      "phone": "+6186786822",
+      "email": "farhatulhasannehad@gmail.com",
+      "date": "2026-09-26",
+      "time": "08:00",
+      "guests": 3,
+      "tablePreference": "Outdoor Verandah",
+      "specialRequests": "",
+      "status": "cancelled",
+      "createdAt": "2026-09-24T05:48:45.330Z"
+    },
+    {
+      "id": "LES-1042",
+      "name": "Sarah Jenkins",
+      "phone": "+61 412 884 102",
+      "email": "sarah.j@gmail.com",
+      "date": "2026-09-24",
+      "time": "08:30",
+      "guests": 2,
+      "tablePreference": "Indoor Timber Booth",
+      "specialRequests": "Flat whites on arrival, oat milk preferred.",
+      "status": "confirmed",
+      "createdAt": "2026-09-24T03:45:11.910Z",
+      "adminNotes": "Regular local guest, booth 2."
+    },
+    {
+      "id": "LES-1043",
+      "name": "Michael & Claire Henderson",
+      "phone": "+61 403 771 904",
+      "email": "claire.henderson@ballarat.org",
+      "date": "2026-09-24",
+      "time": "10:00",
+      "guests": 4,
+      "tablePreference": "Sturt St Window Table",
+      "specialRequests": "Celebrating 10th anniversary, window table requested.",
+      "status": "confirmed",
+      "createdAt": "2026-09-24T00:45:11.910Z",
+      "adminNotes": "Window table 5 reserved with anniversary greeting."
+    },
+    {
+      "id": "LES-1044",
+      "name": "David Thorne (Victorian Heritage)",
+      "phone": "+61 425 619 443",
+      "email": "dthorne@heritagevic.gov.au",
+      "date": "2026-09-24",
+      "time": "12:30",
+      "guests": 3,
+      "tablePreference": "Wine-Bar High Table",
+      "specialRequests": "Quick business lunch, ordering gnocchi ragù.",
+      "status": "pending",
+      "createdAt": "2026-09-24T05:15:11.910Z"
+    },
+    {
+      "id": "LES-1045",
+      "name": "Dr. Emily Vance",
+      "phone": "+61 433 902 118",
+      "email": "emily.vance@ballarathealth.com.au",
+      "date": "2026-09-25",
+      "time": "09:00",
+      "guests": 2,
+      "tablePreference": "Indoor Timber Booth",
+      "specialRequests": "Gluten free bread for smashed avo please.",
+      "status": "confirmed",
+      "createdAt": "2026-09-24T03:45:11.910Z"
+    },
+    {
+      "id": "LES-1046",
+      "name": "Julian Ross",
+      "phone": "+61 418 554 220",
+      "email": "julian.ross@gmail.com",
+      "date": "2026-09-25",
+      "time": "11:30",
+      "guests": 6,
+      "tablePreference": "Indoor Timber Booth",
+      "specialRequests": "Family brunch with one high-chair.",
+      "status": "cancelled",
+      "createdAt": "2026-09-23T05:45:11.910Z",
+      "adminNotes": "Booth 3 + high chair prepped."
+    }
+  ],
+  "enquiries": [
+    {
+      "id": "ENQ-201",
+      "name": "Marcus Bell",
+      "phone": "+61 400 332 991",
+      "email": "marcus@goldfieldsmedia.com.au",
+      "subject": "Private event / evening hire enquiry",
+      "message": "Hi team, do you offer private hire of the cafe for a book launch of 30 people on a Saturday evening?",
+      "status": "unread",
+      "createdAt": "2026-09-24T02:45:11.910Z"
+    },
+    {
+      "id": "ENQ-202",
+      "name": "Hannah Nguyen",
+      "phone": "+61 422 109 455",
+      "email": "hannah.n@vicart.com",
+      "subject": "Catering for local art gallery opening",
+      "message": "Looking to order 40 of your seasonal pastries and mini gnocchi cups for next Friday morning.",
+      "status": "read",
+      "createdAt": "2026-09-23T09:45:11.910Z"
+    }
+  ],
+  "menu": [
+    {
+      "id": "m1",
+      "name": "Artisan Flat White",
+      "category": "coffee",
+      "price": 4.8,
+      "description": "Double ristretto extraction of our signature dark roast with silky, textured whole milk. Melbourne-standard coffee in the heart of Ballarat.",
+      "dietary": [
+        "Vegetarian",
+        "Oat / Soy / Almond available"
+      ],
+      "popular": true,
+      "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80",
+      "hidden": false
+    },
+    {
+      "id": "m2",
+      "name": "Belgian Hot Chocolate",
+      "category": "coffee",
+      "price": 5.5,
+      "description": "Melted Belgian couverture chocolate steamed with rich milk, dusted with Dutch cocoa and served with a house marshmallow.",
+      "dietary": [
+        "Vegetarian",
+        "Gluten Free"
+      ],
+      "popular": true,
+      "image": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "m3",
+      "name": "L'espresso Magic",
+      "category": "coffee",
+      "price": 5,
+      "description": "The Melbourne classic: double ristretto in a 160ml tulip cup with 3/4 steamed milk for the ultimate coffee-to-milk ratio.",
+      "dietary": [
+        "Vegetarian"
+      ],
+      "popular": false,
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "m4",
+      "name": "Famous Smashed Avo on Seeded Sourdough",
+      "category": "brunch",
+      "price": 22,
+      "description": "Fresh Hass avocado, marinated Victorian goat feta, toasted dukkah, lemon oil, fresh mint, and two free-range poached eggs on grilled 1816 bakery sourdough.",
+      "dietary": [
+        "Vegetarian",
+        "Gluten Free Option"
+      ],
+      "popular": true,
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "m5",
+      "name": "L'espresso Classic Eggs Benedict",
+      "category": "brunch",
+      "price": 24,
+      "description": "Toasted buttery brioche, slow-poached free-range eggs, house-whipped tarragon hollandaise with your choice of double-smoked Otway ham or Tasmanian cold-smoked salmon.",
+      "dietary": [
+        "Gluten Free Option"
+      ],
+      "popular": true,
+      "image": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "m6",
+      "name": "Avocado & Heirloom Tomato Toast",
+      "category": "brunch",
+      "price": 21,
+      "description": "Sliced avocado, charred heirloom truss tomatoes, aged balsamic reduction, basil pesto, and microgreens on toasted light rye sourdough.",
+      "dietary": [
+        "Vegetarian",
+        "Vegan Option"
+      ],
+      "popular": false,
+      "image": "https://images.unsplash.com/photo-1588137378633-dea1336ce1e2?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "m7",
+      "name": "Truffle & Field Mushroom Scramble",
+      "category": "brunch",
+      "price": 25,
+      "description": "Silky scrambled eggs with Victorian truffle butter, sautéed Swiss brown mushrooms, shaved pecorino, and wild rocket on grilled sourdough.",
+      "dietary": [
+        "Vegetarian",
+        "Gluten Free Option"
+      ],
+      "popular": true,
+      "image": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "m8",
+      "name": "Signature Handmade Potato Gnocchi Ragù",
+      "category": "mains",
+      "price": 28,
+      "description": "Pillow-soft hand-rolled potato gnocchi tossed in our 8-hour slow-braised Victorian beef cheek and San Marzano tomato ragù, finished with 24-month Parmigiano Reggiano.",
+      "dietary": [
+        "House Specialty"
+      ],
+      "popular": true,
+      "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "m9",
+      "name": "Wild Forest Mushroom & Sage Gnocchi",
+      "category": "mains",
+      "price": 27,
+      "description": "Handmade gnocchi pan-crisped in hazelnut brown butter, King oyster and pine mushrooms, crispy sage, and whipped ricotta.",
+      "dietary": [
+        "Vegetarian"
+      ],
+      "popular": true,
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "m10",
+      "name": "Ballarat Porchetta & Provolone Panini",
+      "category": "mains",
+      "price": 23,
+      "description": "Crisp-skinned herb-roasted pork belly, melted provolone cheese, salsa verde, and pickled fennel on toasted crusty ciabatta.",
+      "dietary": [
+        "Dairy Free Option"
+      ],
+      "popular": false,
+      "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "m11",
+      "name": "Golden Almond Croissant",
+      "category": "pastries",
+      "price": 7.5,
+      "description": "Twice-baked butter croissant loaded with rich frangipane almond cream, toasted flaked almonds, and powdered sugar.",
+      "dietary": [
+        "Vegetarian"
+      ],
+      "popular": true,
+      "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "m12",
+      "name": "Pistachio & Chocolate Babka Knot",
+      "category": "pastries",
+      "price": 7.8,
+      "description": "Twisted brioche pastry ribbons layered with dark chocolate ganache, Bronte pistachios, and orange blossom syrup glaze.",
+      "dietary": [
+        "Vegetarian"
+      ],
+      "popular": false,
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "m13",
+      "name": "Traditional Sicilian Ricotta Cannoli",
+      "category": "pastries",
+      "price": 6.5,
+      "description": "Crisp fried pastry shell piped fresh with sweetened sheep's milk ricotta, candied orange peel, and crushed pistachio tips.",
+      "dietary": [
+        "Vegetarian"
+      ],
+      "popular": true,
+      "image": "https://images.unsplash.com/photo-1579372786545-d24232daf58c?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "m14",
+      "name": "Pyrenees Regional Pinot Noir",
+      "category": "wine",
+      "price": 14,
+      "description": "Glass of local cool-climate Western Victoria Pinot Noir. Ripe cherries, subtle French oak, and fine tannins that pair gloriously with gnocchi.",
+      "dietary": [
+        "Vegan",
+        "A$58 Bottle"
+      ],
+      "popular": true,
+      "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "m15",
+      "name": "King Valley Prosecco DOC",
+      "category": "wine",
+      "price": 13,
+      "description": "Crisp, lively sparkling with green apple and white floral notes. The perfect accompaniment to brunch or eggs benedict.",
+      "dietary": [
+        "Vegan",
+        "A$52 Bottle"
+      ],
+      "popular": false,
+      "image": "https://images.unsplash.com/photo-1560512823-829485b8bf24?auto=format&fit=crop&w=600&q=80"
+    }
+  ],
+  "settings": {
+    "name": "L'espresso",
+    "tagline": "Iconic Coffee, House Gnocchi & Warm Timber Hospitality",
+    "address": "417 Sturt St, Ballarat Central VIC 3350, Australia",
+    "phone": "+61 3 5333 1789",
+    "cleanPhone": "+61353331789",
+    "hoursText": "Open every day: 7:00 AM – 3:00 PM",
+    "kitchenHours": "Kitchen serves 7:00 AM – 2:30 PM",
+    "openDaysText": "Open 7 Days a Week (Mon – Sun)",
+    "priceGuide": "A$20–40 per person",
+    "bannerNotice": "Open Daily: 7:00 AM – 3:00 PM • 417 Sturt St, Ballarat Central",
+    "googleMapsUrl": "https://maps.app.goo.gl/dejNeYBhLNy7xsF6A",
+    "googleMapsEmbed": "https://www.google.com/maps?q=417+Sturt+St,+Ballarat+Central+VIC+3350&output=embed",
+    "heroHeadline": "Artisan espresso, hand-rolled gnocchi & warm timber soul.",
+    "heroDescription": "For decades, L'espresso has been Ballarat’s beloved retreat. Settle into dark leather booths under warm jarrah timber beams, browse our iconic jazz & blues record walls, and enjoy Melbourne-standard coffee, crisp eggs benedict, and slow-cooked beef cheek ragù gnocchi.",
+    "storyQuote": "Where Italian heritage, jazz vinyl, and Victorian coffee culture come together on Sturt Street.",
+    "storyDescription": "Founded on Ballarat’s grand central boulevard, L’espresso captures the nostalgic romance of Melbourne’s laneway cafes combined with the deep, unhurried warmth of a North Italian espresso and wine bar.",
+    "maxTablesPerSlot": 6,
+    "slotIntervalMinutes": 30,
+    "adminEmail": "farhatulhasannehad@gmail.com",
+    "adminPasswordHash": "d3954e1dcd9ca8f7db98220b518efc8cc63e07043ea452658e0e8e68297a437e",
+    "adminRecoveryCode": "LES-RECOVER-8492",
+    "offDaysWeekly": [],
+    "specificClosedDates": [
+      {
+        "date": "2026-12-25",
+        "reason": "Christmas Day Public Holiday"
+      },
+      {
+        "date": "2026-01-01",
+        "reason": "New Year's Day Closure"
+      }
+    ],
+    "offDayNotice": ""
+  }
+}

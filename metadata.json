@@ -1,0 +1,7 @@
+{
+  "name": "L'espresso Ballarat | Cafe & Table Reservations",
+  "description": "Artisan coffee, seasonal brunch dishes, and warm timber hospitality in Ballarat Central. Reserve your table in real time.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
